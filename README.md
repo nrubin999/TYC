@@ -1,4 +1,2 @@
 #TYC Site
-####Created by Nick Rubin
-####@nickrubin
-
+Created by Nick Rubin (@nickrubin)
