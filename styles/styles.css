@@ -320,7 +320,7 @@ div ul li:hover {
 
 #mainlogin {
 	width:245px;
-	height:350px;
+	height:420px;
 	border-radius:5px;
 	display:block;
 	margin:0px auto;
@@ -356,7 +356,7 @@ div ul li:hover {
 }
 
 .text {
-	margin:0px 0px 10px 30px;
+	margin:0px 0px 5px 30px;
 	border:0px;
 	border-bottom:1px #999999 solid !important;
 	width:175px;
@@ -586,7 +586,7 @@ div ul li:hover {
 	padding-left:10px;
 	color:#2f4751;
 	font-size:20px;
-	font-family:opensans-semibold;
+	font-family:opensans-regular;
 	float:left;
 	border-radius:2px;
 }
