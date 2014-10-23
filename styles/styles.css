@@ -676,3 +676,7 @@ div ul li:hover {
 	height:48px;
 	padding:0px 5px 0px 5px;
 }
+
+.fixed {
+	position:fixed!important;
+}

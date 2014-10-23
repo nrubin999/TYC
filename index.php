@@ -6,18 +6,19 @@
 <link type="text/css" rel="stylesheet" href="styles/styles.css">
 <link type="text/css" rel="stylesheet" href="styles/animations.css">
 <script src="scripts/script.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 
 <body>
 <div id="darken" onClick="hideDarken('darken','mainlogin');"></div>
 <div id="darkentwo" onClick="hideDarken('darkentwo','maindonate');"></div>
 <div id="top">
-	<a href="index.php">
-	<img id="logo" src="images/logo.png">
-	<h1 id="logoname">YouthCorp</h1>
+    <a href="index.php">
+    <img id="logo" src="images/logo.png">
+    <h1 id="logoname">YouthCorp</h1>
     </a>
     <ul>
-  		<a href="about.php"><li>ABOUT</li></a>
+        <a href="about.php"><li>ABOUT</li></a>
         <a href="who.php"><li>WHO ARE WE?</li></a>
         <li>MEMBERS</li>
         <li>BLOG</li>
