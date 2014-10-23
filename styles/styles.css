@@ -26,6 +26,37 @@ p {
    }
 }
 
+
+@media (max-width: 1059px) {
+   #logoname {
+	   text-align:center!important;
+	   float:none!important;
+   }
+   #logo {
+	   width:64px!important;
+	   height:64px!important;
+	   display:block!important;
+	   margin-left:auto!important;
+	   margin-right:auto!important;
+	   float:none!important;
+	   padding-top:0px!important;
+   }
+   #top {
+	   padding-top:20px!important;
+   }
+   #singlenav {
+	   padding-top:20px!important;
+   }
+   div ul {
+	   display:table!important;
+	   margin:0px auto!important;
+	   float:none!important;
+   }
+   #message {
+	   padding-top:50px!important;
+   }
+}
+
 body {
 	margin:0px;
 	padding:0px;
@@ -56,9 +87,18 @@ body {
 
 #top {
 	width: 100%;
-	height: 500px;
+	height: auto;
 	background-image:url(../images/background.png);
 	background-size:cover;
+	padding-bottom:100px;
+}
+
+#singlenav {
+	width: 100%;
+	height: 100px;
+	background-image:url(../images/background.png);
+	background-size:cover;
+	position:fixed;
 }
 
 #logo {
@@ -66,6 +106,7 @@ body {
 	height:30px;
 	margin:30px 10px 16px 10%;
 	float:left;
+	padding:0px;
 }
 
 #logoname {
@@ -73,6 +114,7 @@ body {
 	color:white;
 	font-size:24px;
 	margin:28px 0px 0px 0px;
+	padding:0px;
 	float:left;
 }
 
@@ -485,20 +527,20 @@ div ul li:hover {
 
 #bottom h6 {
 	font-family:opensans-light;
-	margin:40px 0px 0px 250px;
+	margin:40px 0px 0px 13%;
 	color:#666666;
 }
 
 #bottom h1 {
 	font-family:opensans-semibold;
 	font-size:26px;
-	margin:0px 0px 0px 250px;
+	margin:0px 0px 0px 13%;
 }
 
 #bottom img {
 	width:150px;
 	height:150px;
-	margin:30px 0px 0px 250px;
+	margin:30px 0px 0px 13%;
 	float:left;
 }
 
@@ -542,7 +584,7 @@ div ul li:hover {
 
 #subscribebox {
 	float:right;
-	margin:-20px 250px 0px 0px;
+	margin:-20px 13% 0px 0px;
 	padding:0px;
 	height:115px;
 	width:440px;
@@ -557,7 +599,7 @@ div ul li:hover {
 	width:440px;
 	background-color:#FFD94A;
 	display:inline-block;
-	margin:-50px 250px 0px 0px;
+	margin:-50px 13% 0px 0px;
 	text-align:center;
 	color:#2f4751;
 	font-family:opensans-bold;
