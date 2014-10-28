@@ -10,7 +10,19 @@
 
 <body>
 <?php include 'nav.php' ?>
-<div style="width:100%;height:1000px;padding-top:110px;">Member organizations</div>
+<div style="width:100%;height:160px"></div>
+<div class="organization">
+The Pulpit
+</div>
+<div class="organization">
+Pretty Purposeful
+</div>
+<div class="organization">
+Greenhouse
+</div>
+<div class="organization">
+Young Homo Politicus
+</div>
 <?php include 'footer.php' ?>
 </body>
 </html>

@@ -27,12 +27,12 @@
         <li id="joinus" onClick="showLogin('maindonate','darkentwo');">Join Us</li>
     </ul>
     <div id="message">
-    	WE <span style="font-family:opensans-light!important">NEED</span> HELP<br>CHANGING <span style="font-family:opensans-light!important">THE</span> WORLD
+    	<span style="font-family:opensans-light!important">WORK</span> TOGETHER<br><span style="font-family:opensans-light!important">TO</span> CHANGE <span style="font-family:opensans-light!important">THE</span> WORLD
     </div>
     <div id="messagejoinus" class="fadeIn" onClick="showLogin('mainlogin','darken');">Join us</div>
 </div>
 <div id="yellow">
-	<h1 id="helpout">How can you help?</h1>
+	<h1 id="helpout">What can you do?</h1>
     <ul>
   		<li><span style="color:#123D52!important">01/</span> ADD YOUR ORGANIZATION</li>
         <li id="helptwo"><span style="padding:17px;border:1px solid #123D52;border-radius:2px;background-image:url(images/connect.png);background-size:contain;"><span style="color:#123D52!important">02/</span> CONNECT WITH OTHERS</span></li>
@@ -40,7 +40,7 @@
     </ul>
 </div>
 <div id="currentprojects">
-	<h1 class="title">CURRENT PROJECTS</h1>
+	<h1 class="title">NOTABLE PROJECTS</h1>
     <h1 class="titleright">VIEW ALL ></h1>
     <div class="project" id="projectleft" style="float:left;margin-left:200px;clear:both;">
     	<div class="projectleft">
@@ -55,7 +55,7 @@
     </div>
     <div class="project" id="projectright" style="float:right;margin-right:200px;">
     	<div class="projectleft">
-        	<h1>DOHA, QATAR</h1>
+        	<h1>CORRUPTION</h1>
             <p>Lorum ipsum dolor sit amet something. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet.</p>
             <div>
             	More details
@@ -67,40 +67,38 @@
 </div>
 <div id="events">
 	<div id="eventbox">
-    	<h1>UPCOMING EVENTS   <span style="float:right;padding:8px 20px 0px 0px;color:#999999!important;font-family:opensans-regular;font-size:18px;">All ></span></h1>
+    	<h1>FEATURED MEMBERS   <span style="float:right;padding:8px 20px 0px 0px;color:#999999!important;font-family:opensans-regular;font-size:18px;"><a href="members.php">All ></a></span></h1>
     	<div class="eventactive event" id="event3" onClick="switchEvent('event3');"><p>
         	<span style="font-family:opensans-light;color:#999999;font-size:17px;">
-            March 24, 2014
+            Doha, Qatar
             </span><br>
-            2014 Youth Conference
+            The Pulpit
         </p></div>
         <div class="event" id="event2" onClick="switchEvent('event2');"><p>
         	<span style="font-family:opensans-light;color:#999999;font-size:17px;">
-            March 25, 2015
+            Southlake, Texas
             </span><br>
-        	2015 Youth Conference
+        	Pretty Purposeful
         </p></div>
         <div class="event" id="event1" onClick="switchEvent('event1');"><p>
         	<span style="font-family:opensans-light;color:#999999;font-size:17px;">
-            March 26, 2016
+            Seattle, Washington
             </span><br>
-        	2016 Youth Conference
+        	Greenhouse
         </p></div>
     </div>
-    <h2 id="eventdate">March 24, 2014</h2>
-    <h1 id="eventtitle">2014 Youth Conference</h1>
-    <h3 id="eventtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis ligula sed consequat ultricies. Maecenas cursus, metus in molestie venenatis, magna velit aliquet augue, in rhoncus purus nulla non nulla.
-    <br><br>Aenean pretium sapien sed sollicitudin tincidunt. Vivamus accumsan nisi ac nulla aliquam convallis. Donec facilisis diam sit amet hendrerit eleifend. Phasellus posuere tortor quis lorem ultrices pharetra.
-    Praesent laoreet lacinia orci a suscipit.</h3>
+    <h2 id="eventdate">Doha, Qatar</h2>
+    <h1 id="eventtitle">The Pulpit</h1>
+    <h3 id="eventtext">The Pulpit is an international youth publication that seeks to unite the knowledge, creativity, and literary talent of the world's youth through the world’s oldest common tongue – rhetoric. While it may be Qatar’s first and only online youth publication, The Pulpit is committed to helping aspiring writers find their voice – and providing a greater lectern for armchair veterans of the pen. The Pulpit serves to be a stage for the youth to debate, ideate and innovate new notions – and a nursery to nurture them into concrete ideas.</h3>
     <div id="eventdetails">
-    	Event details >
+    	Check it out >
     </div>
 </div>
 <div id="bottom">
-	<h6>Latest blog entry - October 11th, 2014</h6>
-    <h1>Let's Talk About Cancer...</h1>
+	<h6>Latest blog entry - October 26th, 2014</h6>
+    <h1>Welcome to YouthCorp</h1>
     <img src="images/blogshot.png">
-    <p id="blogpreview">Everyone gets cancer. It may be a loved one. It may be a dog. But, talking about it is something that everyone should do...<br><br>
+    <p id="blogpreview">Lorum ipsum dolor sit amet something. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet.<br><br>
     <span style="font-size:18px;text-decoration:underline;font-family:opensans-semibold;color:#2f4751;cursor:pointer;">Read article ></span>
     </p>
     <!--<div id="blogbutton">
