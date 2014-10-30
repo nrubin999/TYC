@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<?php include_once("analyticstracking.php") ?>
 <?php include 'nav.php' ?>
 <h1 class="pagetitle">Who are we?</h1>
 <div id="headshots">
@@ -21,7 +22,15 @@
 <div id="personinfo">
 	<h1 id="personname">Aditya Karkera</h1>
     <h2 id="personlocation">Doha, Qatar</h2>
-    <p id="personbio">Aditya Karkera is a nationally accomplished debater, orator, social entrepreneur, and writer who loves to explore new ideas and systematically dismantle them using a healthy mixture of scepticism and curiosity. With his written work featured in the Times Of India and the Times Of Israel – among others – and his oral work making ripples on stages across Qatar, he considers himself to be a Clausewitzian perfectionist. He is also a noted lover of puppies.</p>
+    <p id="personbio">Aditya Karkera is the founder and editor-in-chief of The Pulpit - Qatar's first online international youth publication dedicated to encouraging debate, discussion, and dialogue on pressing global issues. He is a nationally accomplished debater, orator, and writer, and has appeared on both print and television for his achievements. Aditya is a Yale Young Global Scholar, one of the youngest TEDx curators in Asia, a highly decorated debater and orator,  a contributing writer for the Times Of India - the world's largest English daily - and the Times Of Israel - one of the Middle East's fastest growing English publications. He is also a noted lover of puppies.</p>
+	<!--<a target="_blank" href="http://facebook.com/theyouthcorp"><img src="images/social/facebook500.png"></a>-->
+    <a target="_blank" id="biotwitter" href="https://twitter.com/AdiKarkera"><img src='images/social/twitter.png'></a>
+    <a target="_blank" id="bioinstagram" href="http://instagram.com/aditya.karkera"><img src="images/social/instagram.png"></a>
+    <a target="_blank" id="biolinkedin" style='display:none' href="http://instagram.com/aditya.karkera"><img src="images/social/linkedin.png"></a>
+    <a target="_blank" id="biowebsite" style='display:none' href="http://instagram.com/aditya.karkera"><img src="images/social/website.png"></a>
+    <!--<a target="_blank" href="https://www.youtube.com/user/youthcorp"><img src="images/social/youtube-variation.png"></a>
+    <a target="_blank" href="http://www.pinterest.com/youthcorp/"><img src="images/social/pinterest.png"></a>-->
+    <a id="bioemail" href="mailto:theyouthc@gmail.com"><img src="images/social/email.png"></a>
 </div>
 <?php include 'footer.php' ?>
 </body>

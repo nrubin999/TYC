@@ -1,4 +1,5 @@
 <div id="singlenav">
+	<div id="darken" onClick="hideDarken('darken','mainlogin');"></div>
 	<a href="index.php">
 	<img id="logo" src="images/logo.png">
 	<h1 id="logoname">YouthCorp</h1>
@@ -10,6 +11,6 @@
         <a href="blog.php"><li>BLOG</li></a>
         <a href="events.php"><li>EVENTS</li></a>
         <a href="contact.php"><li>CONTACT US</li></a>
-        <li id="joinus" onClick="showLogin('maindonate','darkentwo');">Join Us</li>
+        <li id="joinus" onClick="showLogin('mainlogin','darken');">Join Us</li>
     </ul>
 </div>
