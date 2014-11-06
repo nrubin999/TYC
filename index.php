@@ -115,6 +115,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         <li><span style="color:#123D52!important">03/</span> WORK TOGETHER</li>
     </ul>
 </div>
+<iframe style="width: calc(100% - 400px);display:block;margin:0px auto;margin-top:100px;" height='250px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/nickrubin.k42llhmp/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoibmlja3J1YmluIiwiYSI6InduWTU3MTQifQ.-uvHxAZUG7-SUUdAUewHCA'></iframe>
+
 <div id="currentprojects">
 	<h1 class="title">NOTABLE PROJECTS</h1>
     <h1 class="titleright">VIEW ALL ></h1>

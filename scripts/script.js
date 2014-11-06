@@ -23,25 +23,25 @@ function switchMember(id) {
 		document.getElementById("bioinstagram").href = "http://instagram.com/aditya.karkera";
 		document.getElementById("biolinkedin").style.display = 'none';
 		document.getElementById("biowebsite").style.display = "none";
-		document.getElementById("bioemail").href = "mailto:joinus@theyouthcorp.org";
+		document.getElementById("bioemail").href = "mailto:aditya.karkera98@gmail.com";
 		bio.innerHTML = "Aditya Karkera is the founder and editor-in-chief of The Pulpit - Qatar's first online international youth publication dedicated to encouraging debate, discussion, and dialogue on pressing global issues. He is a nationally accomplished debater, orator, and writer, and has appeared on both print and television for his achievements. Aditya is a Yale Young Global Scholar, one of the youngest TEDx curators in Asia, a highly decorated debater and orator,  a contributing writer for the Times Of India - the world's largest English daily - and the Times Of Israel - one of the Middle East's fastest growing English publications. He is also a noted lover of puppies.";
 	}
 	if(id == "member2") {
-		name.innerHTML = "Jae Hyun Park";
+		name.innerHTML = "Jaehyun Park";
 		location.innerHTML = "Seoul, South Korea";
 		document.getElementById("biotwitter").href = "https://twitter.com/jhpark1515";
 		document.getElementById("bioinstagram").style.display = "none";
 		document.getElementById("biolinkedin").style.display = 'none';
 		document.getElementById("biowebsite").style.display = "none";
-		document.getElementById("bioemail").href = "mailto:joinus@theyouthcorp.org";
-		bio.innerHTML = "He is a boy from Korea";
+		document.getElementById("bioemail").href = "mailto:jaehyunpark15@gmail.com";
+		bio.innerHTML = "Jaehyun is the founder and president of Young Homo Politicus – one of the largest youth organizations in South Korea that is dedicated to policy formulation, educational initiatives, and youth empowerment in general. The winner of the International Public Speaking Competition 2014 hosted by the English Speaking Union, Jaehyun is a renowned orator with a flaring passion for political activism. He has served as the Secretary-General of both Korea Model United Nations and the Korean branch of Online MUN. Also a Yale Young Global Scholar, Jaehyun is interested in studying the dynamics of international relations with a particular focus on East Asia. But at the end of the day, Jaehyun is a theater geek who loves to act and sing.";
 	}
 	if(id == "member3") {
 		name.innerHTML = "Julia Myers";
 		location.innerHTML = "Southlake, Texas";
 		document.getElementById("biotwitter").href = "https://twitter.com/JuliaMy97";
 		document.getElementById("bioinstagram").style.display = "inline-block";
-		document.getElementById("bioinstagram").href = "http://instagram.com/juliamy97";
+		document.getElementById("bioinstagram").href = "http://instagram.com/prettypurposeful";
 		document.getElementById("biolinkedin").style.display = 'inline-block';
 		document.getElementById("biolinkedin").href = "http://www.linkedin.com/pub/julia-myers/7a/261/16b";
 		document.getElementById("biowebsite").style.display = 'inline-block';
@@ -60,13 +60,13 @@ function switchMember(id) {
 		document.getElementById("biowebsite").href = "http://www.nicholasrub.in";
 		document.getElementById("bioinstagram").href = "http://instagram.com/nick_rubin";
 		document.getElementById("bioemail").href = "mailto:nrubin999@gmail.com";
-		bio.innerHTML = "He is a boy from Washington";
+		bio.innerHTML = "Nick Rubin is a junior at Lakeside High School in Seattle, Washington. He is on the board of advisors of Represent.us, a writer for the Huffington Post, and the creator of Greenhouse. Greenhouse is a free browser extension for Chrome, Firefox, and Safari that exposes the influence of money in US Congress. It has been downloaded over 100,000 times, recognized and written about in countries on every continent, and in big media outlets like the Washington Post, Wall Street Journal, Vice, PBS, and many others. When he isn't busy coding, Nick enjoys photography, graphic design, and the outdoors.";
 	}
 	if(id == "member5") {
 		name.innerHTML = "Maria Myers";
 		document.getElementById("biotwitter").href = "https://twitter.com/MariaMyers_";
 		document.getElementById("bioinstagram").style.display = "inline-block";
-		document.getElementById("bioinstagram").href = "http://instagram.com/agirlnamedmaria_";
+		document.getElementById("bioinstagram").href = "http://instagram.com/prettypurposeful";
 		document.getElementById("biolinkedin").style.display = 'inline-block';
 		document.getElementById("biolinkedin").href = "http://www.linkedin.com/in/myersmaria";
 		document.getElementById("biowebsite").style.display = 'none';

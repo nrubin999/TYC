@@ -18,12 +18,12 @@
         </td>
     </tr>
     <tr>
-    	<td><a href="members.php">Partners</a></td>
+    	<td><a href="members.php">Members</a></td>
         <td><a href="about.php">Our Mission</a></td>
     </tr>
     <tr>
     	<td>Press</td>
-        <td>Get Involved</td>
+        <td onClick="showLogin('mainlogin','darkenthree');">Get Involved</td>
     </tr>
     <tr>
     	<td><a href="contact.php">Contact Us</a></td>
@@ -31,6 +31,7 @@
     </tr>
 </table>
 </div>
+<div id="darkenthree" onClick="hideDarken('darkenthree','mainlogin');"></div>
 <div id="mainlogin">
 	<form action="index.php" method="post" name="joinusform">
 		<p class="label">Your Full Name:</p>

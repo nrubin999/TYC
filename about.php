@@ -15,6 +15,7 @@
 <div id="mission"><em>
 "Our mission is to connect and integrate youth-run organizations, companies and initiatives by employing a global network of said organizations, companies and initiatives in order to realize a more <br>youth-empowered world."</em>
 </em></div>
+<iframe width='80%' height='350px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/nickrubin.k42llhmp/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoibmlja3J1YmluIiwiYSI6InduWTU3MTQifQ.-uvHxAZUG7-SUUdAUewHCA'></iframe>
 <div id="missionbelow">
 <!--The YouthCorp is a global network of youth-run companies, initiatives, nonprofits and organizations seeking to amalgamate and mobilise the resources, innovations and outreach of its members to empower the youth and nurture young entrepreneurs on an international scale.<br><br>
 It's simple. Any and every youth-run company, initiative, nonprofit, and organization is invited to join us. -->

@@ -13,10 +13,10 @@
 <?php include 'nav.php' ?>
 <h1 class="pagetitle">Who are we?</h1>
 <div id="headshots">
-    <img class="headshot activeheadshot" id="member1" onclick="switchMember('member1');" src="images/headshots/bw/1011616_616358828452656_822759525399498919_n.jpg">
-    <img class="headshot" id="member2" onclick="switchMember('member2');" src="images/headshots/bw/10720372_882933388383381_151894376_o.jpg">
-    <img class="headshot" id="member3" onclick="switchMember('member3');" src="images/headshots/bw/10153072_1387429291533479_1597977462_n.jpg">
+    <img class="headshot activeheadshot" id="member1" onclick="switchMember('member1');" src="images/headshots/10606319_10152645025612859_8448777422479776948_n.jpg">
     <img class="headshot" id="member4" onclick="switchMember('member4');" src="images/headshots/bw/10525711_682765918443990_5885153812108802473_n.jpg">
+    <img class="headshot" id="member3" onclick="switchMember('member3');" src="images/headshots/1233622_1482645005345240_4062516141985052394_n.jpg">
+        <img class="headshot" id="member2" onclick="switchMember('member2');" src="images/headshots/bw/10720372_882933388383381_151894376_o.jpg">
     <img class="headshot" id="member5" onclick="switchMember('member5');" src="images/headshots/bw/1500813_1452360005026077_8949019238728989426_o.jpg">
 </div>
 <div id="personinfo">
