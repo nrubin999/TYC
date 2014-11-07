@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="We're creating a global network of youth-run organizations. Join us and submit your initiative, company, project, or nonprofit today.">
 <title>Members | YC</title>
 <link type="text/css" rel="stylesheet" href="styles/styles.css">
 <link type="text/css" rel="stylesheet" href="styles/animations.css">

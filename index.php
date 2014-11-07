@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home | YC</title>
+<meta name="description" content="We're creating a global network of youth-run organizations. Join us and submit your initiative, company, project, or nonprofit today.">
+<title>Home | YouthCorp</title>
 <link type="text/css" rel="stylesheet" href="styles/styles.css">
 <link type="text/css" rel="stylesheet" href="styles/animations.css">
 <link rel="icon" 
@@ -115,7 +116,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         <li><span style="color:#123D52!important">03/</span> WORK TOGETHER</li>
     </ul>
 </div>
-<iframe style="width: calc(100% - 400px);display:block;margin:0px auto;margin-top:100px;" height='250px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/nickrubin.k42llhmp/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoibmlja3J1YmluIiwiYSI6InduWTU3MTQifQ.-uvHxAZUG7-SUUdAUewHCA'></iframe>
 
 <div id="currentprojects">
 	<h1 class="title">NOTABLE PROJECTS</h1>
@@ -143,9 +143,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 </div>
+<h1 class="title" style="position:absolute;margin:-10px 0px 25px 200px;">WHERE ARE WE?</h1>
+<iframe style="width: calc(100% - 400px);display:block;margin:0px auto;margin-top:50px;margin-bottom:70px;" height='250px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/nickrubin.k42llhmp/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoibmlja3J1YmluIiwiYSI6InduWTU3MTQifQ.-uvHxAZUG7-SUUdAUewHCA'></iframe>
 <div id="events">
 	<div id="eventbox">
-    	<h1>FEATURED MEMBERS   <span style="float:right;padding:8px 20px 0px 0px;color:#999999!important;font-family:opensans-regular;font-size:18px;"><a href="members.php">All ></a></span></h1>
+    	<h1>FEATURED MEMBERS   <span style="position:absolute;margin-left:175px;margin-top:8px;color:#999999!important;font-family:opensans-regular;font-size:18px;z-index:9999;"><a href="members.php">All ></a></span></h1>
     	<div class="eventactive event" id="event3" onClick="switchEvent('event3');">
         	<img src="images/pulpit_logobw.png" style="width:60px;height:60px;float:left;margin:14px;">
             <p><span style="font-family:opensans-light;color:#999999;font-size:17px;">

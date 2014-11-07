@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Events | YC</title>
+<meta name="description" content="We're creating a global network of youth-run organizations. Join us and submit your initiative, company, project, or nonprofit today.">
+<title>Events | YouthCorp</title>
 <link type="text/css" rel="stylesheet" href="styles/styles.css">
 <link type="text/css" rel="stylesheet" href="styles/animations.css">
 <script src="scripts/script.js"></script>

@@ -6,6 +6,11 @@ p {
 	padding:0px;
 }
 
+a {
+  color: inherit; 
+  text-decoration: inherit; 
+}
+
 #footer a {
 	color:#e3e3e3!important;
 	text-decoration:none!important;
@@ -36,6 +41,8 @@ p {
    #logoname {
 	   text-align:center!important;
 	   float:none!important;
+	   margin-top:0px!important;
+	   padding-top:0px!important;
    }
    #logo {
 	   width:64px!important;
@@ -45,6 +52,8 @@ p {
 	   margin-right:auto!important;
 	   float:none!important;
 	   padding-top:0px!important;
+	   padding-bottom:0px!important;
+	   margin-bottom:0px!important;
    }
    #top {
 	   padding-top:20px!important;
@@ -93,6 +102,7 @@ body {
 @font-face {
 	font-family:marker;
 	src:url(../fonts/Kalam-Bold.ttf);
+	font-weight:bold;
 }
 
 @font-face {
@@ -110,7 +120,7 @@ body {
 
 #singlenav {
 	width: 100%;
-	height: 100px;
+	height: auto;
 	background-image:url(../images/background.png);
 	background-size:cover;
 	position:fixed;
@@ -128,7 +138,7 @@ body {
 #logoname {
 	font-family:marker;
 	color:white;
-	font-size:24px;
+	font-size:26px;
 	margin:28px 0px 0px 0px;
 	padding:0px;
 	float:left;
@@ -173,7 +183,7 @@ div ul li:hover {
 }
 
 #joinus {
-	background-color:#FFD94A;
+	background-color:#ffe45c;
 	padding:8px 13px 8px 13px;
 	font-family:opensans-bold!important;
 	border-radius:3px;
@@ -217,7 +227,7 @@ div ul li:hover {
 
 #yellow {
 	height:45px;
-	background-color:#FFD94A;
+	background-color:#ffe45c;
 	padding:37px;
 }
 
@@ -335,7 +345,7 @@ div ul li:hover {
 #events {
 	height:440px;
 	padding-top:30px;
-	background-color:#FFD94A;
+	background-color:#ffe45c;
 }
 
 #eventtitle {
@@ -621,7 +631,7 @@ div ul li:hover {
 	height:40px;
 	border-radius:2px;
 	width:440px;
-	background-color:#FFD94A;
+	background-color:#ffe45c;
 	display:inline-block;
 	margin:-50px 13% 0px 0px;
 	text-align:center;
@@ -729,7 +739,7 @@ div ul li:hover {
 }
 
 .activeheadshot {
-	border:4px solid #FFD94A !important;
+	border:4px solid #ffe45c !important;
 	height:217px!important;
 	width:192px!important;
 	transition:ease all .1s !important;
@@ -768,14 +778,14 @@ div ul li:hover {
 }
 
 #mission {
-	width:60%;
+	width:70%;
 	height:100px;
 	/*background-image:url(../images/holi.png);*/
 	display:block;
 	background-size:contain;
 	margin:0px auto;
-	padding:30px 60px 60px 60px;
-	color:#999999;
+	padding:60px 60px 60px 60px;
+	color:#666666;
 	font-family:opensans-regular;
 	font-size:24px;
 	border-radius:4px;
@@ -847,7 +857,7 @@ div ul li:hover {
 	height:45px;
 	margin-left:10%;
 	display:block;
-	background-color:#FFD94A;
+	background-color:#ffe45c;
 	border:0px;
 	color:#2f4751;
 	font-family:opensans-semibold;
@@ -859,7 +869,7 @@ div ul li:hover {
 
 #contactsubmit:hover {
 	background-color:white;
-	border:2px solid #FFD94A;
-	color:#FFD94A;
+	border:2px solid #ffe45c;
+	color:#ffe45c;
 	transition:ease all .1s;
 }

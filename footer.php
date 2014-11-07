@@ -22,7 +22,7 @@
         <td><a href="about.php">Our Mission</a></td>
     </tr>
     <tr>
-    	<td>Press</td>
+    	<td style="cursor:auto!important">Press</td>
         <td onClick="showLogin('mainlogin','darkenthree');">Get Involved</td>
     </tr>
     <tr>

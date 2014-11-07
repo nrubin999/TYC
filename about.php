@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>About | YC</title>
+<meta name="description" content="We're creating a global network of youth-run organizations. Join us and submit your initiative, company, project, or nonprofit today.">
+<title>About | YouthCorp</title>
 <link type="text/css" rel="stylesheet" href="styles/styles.css">
 <link type="text/css" rel="stylesheet" href="styles/animations.css">
 <script src="scripts/script.js"></script>
@@ -11,17 +12,20 @@
 <body>
 <?php include_once("analyticstracking.php") ?>
 <?php include 'nav.php' ?>
-<div style="width:100%;height:160px"></div>
+<div style="width:100%;height:100px"></div>
+
 <div id="mission"><em>
-"Our mission is to connect and integrate youth-run organizations, companies and initiatives by employing a global network of said organizations, companies and initiatives in order to realize a more <br>youth-empowered world."</em>
+"Our mission is to connect and integrate youth-run organizations, companies and initiatives by employing a global network of said organizations, companies and initiatives in order to realize a more youth-empowered world."</em>
 </em></div>
-<iframe width='80%' height='350px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/nickrubin.k42llhmp/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoibmlja3J1YmluIiwiYSI6InduWTU3MTQifQ.-uvHxAZUG7-SUUdAUewHCA'></iframe>
+<iframe width='100%' height='250px' style="display:block;margin:0px auto;" frameBorder='0' src='https://a.tiles.mapbox.com/v4/nickrubin.k42llhmp/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoibmlja3J1YmluIiwiYSI6InduWTU3MTQifQ.-uvHxAZUG7-SUUdAUewHCA'></iframe>
 <div id="missionbelow">
 <!--The YouthCorp is a global network of youth-run companies, initiatives, nonprofits and organizations seeking to amalgamate and mobilise the resources, innovations and outreach of its members to empower the youth and nurture young entrepreneurs on an international scale.<br><br>
 It's simple. Any and every youth-run company, initiative, nonprofit, and organization is invited to join us. -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet metus vel libero consequat bibendum ut eu nisi. Fusce a turpis vitae dui congue malesuada nec ac erat. Nunc quis sapien convallis, vulputate purus eget, gravida nunc. Mauris non commodo enim, nec molestie augue. Quisque vel libero vitae lectus commodo ultrices a in urna. Aliquam sollicitudin sem non finibus iaculis. Duis eu accumsan libero. Mauris eu elit lobortis, interdum lectus eget, faucibus nisl. Maecenas aliquam consectetur neque et rutrum. Praesent consectetur augue a massa venenatis, quis placerat nunc imperdiet. Nullam tortor lacus, facilisis quis efficitur ut, sodales a urna. Ut in massa sagittis, tristique nisl pellentesque, sodales turpis. Pellentesque lobortis semper tellus non posuere. Aliquam nec nulla vel mauris placerat feugiat. Phasellus sagittis augue non risus vestibulum faucibus. Phasellus eget porta risus.<br><br>
-Pellentesque arcu augue, tincidunt id semper vitae, pharetra quis felis. Maecenas eget placerat ipsum, sit amet auctor metus. Nunc quis leo consequat, pharetra dui ut, semper nisl. Quisque pulvinar pellentesque velit eget rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam vestibulum eros et nisl vestibulum gravida. Maecenas fermentum nibh eu enim sagittis convallis.<br><br>
-Aliquam ipsum quam, porttitor vitae luctus non, dictum id lacus. Ut a semper dui. Quisque id dolor at lorem tincidunt ultrices. Ut libero lacus, lacinia pulvinar placerat quis, convallis non quam. Vivamus quis sodales justo. Ut tempor nulla ut consectetur porttitor. Mauris ac iaculis nibh, quis aliquet tellus. Ut nec neque ex. Nunc nisl neque, pulvinar eleifend blandit ut, pharetra a tortor. Praesent condimentum mauris sed euismod imperdiet. Nullam quis laoreet velit. Sed in elit tempor, rhoncus nunc ornare, rhoncus lacus.
+The YouthCorp is a global network of youth-run companies, initiatives, nonprofits and organizations seeking to amalgamate and mobilize the resources, innovations and outreach of its members to empower the youth and nurture young entrepreneurs on an international scale.
+<br><br>
+We focus on one global issue annually and organize our collective resources to fight that issue. We seek to build a better and more connected world through conferences, calls, and global movements. We connect through a variety of platforms and encourage youth from all nations to work together to build a better world.
+<br><br>
+Our key founders met at the the educational summer program, Yale Young Global Scholars. Inspired by the focus on global changemaking, they were sought to build a network similar to the international youth leaders at the program and started Youth Corp.
 </div>
 <?php include 'footer.php' ?>
 </body>
