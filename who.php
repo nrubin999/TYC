@@ -27,7 +27,7 @@
 	<!--<a target="_blank" href="http://facebook.com/theyouthcorp"><img src="images/social/facebook500.png"></a>-->
     <a target="_blank" id="biotwitter" href="https://twitter.com/AdiKarkera"><img src='images/social/twitter.png'></a>
     <a target="_blank" id="bioinstagram" href="http://instagram.com/aditya.karkera"><img src="images/social/instagram.png"></a>
-    <a target="_blank" id="biolinkedin" style='display:none' href="http://instagram.com/aditya.karkera"><img src="images/social/linkedin.png"></a>
+    <a target="_blank" id="biolinkedin" href="https://www.linkedin.com/profile/view?id=290269916&authType=NAME_SEARCH&authToken=ZT9S&locale=en_US&trk=tyah2&trkInfo=tarId%3A1415326693535%2Ctas%3Aaditya%2Cidx%3A1-1-1"><img src="images/social/linkedin.png"></a>
     <a target="_blank" id="biowebsite" style='display:none' href="http://instagram.com/aditya.karkera"><img src="images/social/website.png"></a>
     <!--<a target="_blank" href="https://www.youtube.com/user/youthcorp"><img src="images/social/youtube-variation.png"></a>
     <a target="_blank" href="http://www.pinterest.com/youthcorp/"><img src="images/social/pinterest.png"></a>-->

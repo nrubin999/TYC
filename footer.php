@@ -40,6 +40,8 @@
 		<input name="ju_age" style="text-transform:capitalize;" id="text" spellcheck="false" class="text" type="text">
         <p class="label">Your Location:</p>
 		<input name="ju_location" style="text-transform:capitalize;" id="text" spellcheck="false" class="text" type="text">
+        <p class="label">Your Organization:</p>
+		<input name="ju_org" style="text-transform:capitalize;" id="text" spellcheck="false" class="text" type="text">
 		<p class="label">Your Email Address:</p>
 		<input name="ju_email" class="text" spellcheck="false" onKeyUP="trackChange(this.value)" type="text">
 		<input class="submit" disabled id="submit" type="submit" value="Request Invite">

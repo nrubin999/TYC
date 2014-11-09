@@ -21,7 +21,8 @@ function switchMember(id) {
 		document.getElementById("biotwitter").href = "http://twitter.com/AdiKarkera";
 		document.getElementById("bioinstagram").style.display = "inline-block";
 		document.getElementById("bioinstagram").href = "http://instagram.com/aditya.karkera";
-		document.getElementById("biolinkedin").style.display = 'none';
+		document.getElementById("biolinkedin").style.display = 'inline-block';
+		document.getElementById("biolinkedin").href = 'https://www.linkedin.com/profile/view?id=290269916&authType=NAME_SEARCH&authToken=ZT9S&locale=en_US&trk=tyah2&trkInfo=tarId%3A1415326693535%2Ctas%3Aaditya%2Cidx%3A1-1-1';
 		document.getElementById("biowebsite").style.display = "none";
 		document.getElementById("bioemail").href = "mailto:aditya.karkera98@gmail.com";
 		bio.innerHTML = "Aditya Karkera is the founder and editor-in-chief of The Pulpit - Qatar's first online international youth publication dedicated to encouraging debate, discussion, and dialogue on pressing global issues. He is a nationally accomplished debater, orator, and writer, and has appeared on both print and television for his achievements. Aditya is a Yale Young Global Scholar, one of the youngest TEDx curators in Asia, a highly decorated debater and orator,  a contributing writer for the Times Of India - the world's largest English daily - and the Times Of Israel - one of the Middle East's fastest growing English publications. He is also a noted lover of puppies.";

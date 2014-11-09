@@ -304,8 +304,8 @@ div ul li:hover {
 	color:white;
 	font-family:opensans-semibold;
 	font-size:20px;
-	text-align:center;
 	margin-top:2em;
+	margin-left:40px;
 }
 
 .projectleft h1:hover {
@@ -319,16 +319,14 @@ div ul li:hover {
 	font-family:opensans-regular;
 	font-size:13px;
 	width:60%;
-	display:block;
-	margin:0px auto;
+	margin-left:40px;
 }
 
 .projectleft div {
 	width:60%;
 	height:30px;
 	border:2px white solid;
-	display:block;
-	margin:0px auto;
+	margin-left:40px;
 	border-radius:2px;
 	margin-top:1.5em;
 	color:white;
@@ -396,7 +394,7 @@ div ul li:hover {
 
 #mainlogin {
 	width:245px;
-	height:420px;
+	height:500px;
 	border-radius:5px;
 	display:block;
 	margin:0px auto;
@@ -803,7 +801,7 @@ div ul li:hover {
 
 .organization {
 	width:70%;
-	height:150px;
+	height:auto;
 	display:block;
 	margin:0px auto;
 	margin-bottom:30px;
@@ -872,4 +870,31 @@ div ul li:hover {
 	border:2px solid #ffe45c;
 	color:#ffe45c;
 	transition:ease all .1s;
+}
+
+.membertitle {
+	font-family:opensans-semibold;
+	color:white;
+	padding:18px 0px 0px 25px;
+	font-size:20px;
+}
+
+.memberdescription {
+	padding:0px 25px 25px 25px;
+	color:white;
+	font-family:opensans-light;
+}
+
+.memberphoto {
+	height:150px;
+	width:150px;
+	padding:20px;
+	float:left;
+}
+
+.organization a img {
+	width:48px;
+	height:48px;
+	padding-bottom:20px;
+	padding-right:20px;
 }

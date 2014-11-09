@@ -54,6 +54,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		$joinus_age = $_POST['ju_age'];
 		$joinus_location = $_POST['ju_location'];
 		$joinus_email = $_POST['ju_email'];
+		$joinus_org = $_POST['ju_org'];
 		
 		$mail_to = 'joinus@theyouthcorp.org';
 		$subject = 'Member Request!';
@@ -62,6 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		$body_message .= 'Age: '.$joinus_age."\n";
 		$body_message .= 'Location: '.$joinus_location."\n";
 		$body_message .= 'E-mail: '.$joinus_email."\n";
+		$body_message .= 'Organization: '.$joinus_org."\n";
 		
 		$headers = 'From: '.$joinus_email."\r\n";
 		$headers .= 'Reply-To: '.$joinus_email."\r\n";
@@ -122,24 +124,24 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <h1 class="titleright">VIEW ALL ></h1>
     <div class="project" id="projectleft" style="float:left;margin-left:200px;clear:both;">
     	<div class="projectleft">
-             <h1>SONGXI, CHINA</h1>
-             <p>Lorum ipsum dolor sit amet something. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet.</p>
-             <div>
+             <h1>FISTULA</h1>
+             <p>One of our founders, Pretty Purposeful, is doing something awesome. Check them out.</p>
+             <a target="_blank" href="http://prettypurposeful.org"><div>
              	More details
-             </div>
+             </div></a>
         </div>
-        <div class="projectright" style="background-image:url(images/man.jpg);background-size:cover;">
+        <div class="projectright" style="background-image:url(images/Screen%20Shot%202014-11-09%20at%201.11.35%20PM.png);background-size:cover;">
         </div>
     </div>
     <div class="project" id="projectright" style="float:right;margin-right:200px;">
     	<div class="projectleft">
         	<h1>CORRUPTION</h1>
-            <p>Lorum ipsum dolor sit amet something. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet.</p>
-            <div>
+            <p>Corruption is a big issue in the US. Check out how Greenhouse, one of our founders, is playing its part.</p>
+            <a target="_blank" href="http://allaregreen.us"><div>
             	More details
-            </div>
+            </div></a>
         </div>
-        <div class="projectright" style="background-image:url(images/greenhouse.JPG);background-size:cover;">
+        <div class="projectright" style="background-image:url(images/boehner.png);background-size:cover;">
         </div>
     </div>
 </div>
@@ -180,9 +182,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <div id="bottom">
 	<h6>Latest blog entry - October 26th, 2014</h6>
     <h1>Welcome to YouthCorp</h1>
-    <img src="images/blogshot.png">
-    <p id="blogpreview">Lorum ipsum dolor sit amet something. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet.<br><br>
-    <span style="font-size:18px;text-decoration:underline;font-family:opensans-semibold;color:#2f4751;cursor:pointer;">Read article ></span>
+    <img src="images/TYC_Solid.png">
+    <p id="blogpreview">Our blog is coming soon! Stay tuned to hear from YouthCorp's members. In the meantime, join us today and share your stories.<br><br>
+    <span style="font-size:18px;text-decoration:underline;font-family:opensans-semibold;color:#2f4751;cursor:pointer;">Coming soon ></span>
     </p>
     <!--<div id="blogbutton">
     	Read article 
