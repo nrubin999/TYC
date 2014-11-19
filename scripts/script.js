@@ -48,7 +48,7 @@ function switchMember(id) {
 		document.getElementById("biowebsite").style.display = 'inline-block';
 		document.getElementById("biowebsite").href = "http://www.juliaannmyers.com";
 		document.getElementById("bioemail").href = "mailto:juliaannmyers97@gmail.com";
-		bio.innerHTML = "Julia Myers, 17, a high school junior, is the co-founder and chairman of Pretty Purposeful, a charity that provides obstetric fistula repair surgeries for women in Africa. She is a spokesperson for global health issues and child soldiers and has appeared on television and in multiple news publications. Julia is a Yale Young Global Scholar, a Youth Ambassador to China, a Teen Attorney and has competed in a national speech and debate league. She is also a National Latin Scholar, an AP Scholar with Distinction, and holds a black belt in Taekwondo. Julia has practiced piano for over ten years, has attended the SMU Institute for Young Pianists, and is an award-winning music theory student. Her awards include the Southlake Youth of the Year and the Kohl’s Cares Regional scholarship award.";
+		bio.innerHTML = "Julia Myers, a high school junior, is the co-founder and chairman of Pretty Purposeful, a nonprofit that provides obstetric fistula repair surgeries for women in Africa. She is a teen activist and has spoken to numerous groups in the US and China and appeared on TV and in multiple news publications. Julia is also a Yale Young Global Scholar, Youth Ambassador to China, Teen Attorney, debate competitor, classical pianist, and holds a black belt in Taekwondo. Her awards include the Southlake Youth of the Year, the Kohl’s Cares Regional scholarship, the USIP Peace Essay Contest State Winner, National Latin Scholar and AP Scholar with Distinction.";
 	}
 	if(id == "member4") {
 		name.innerHTML = "Nick Rubin";
@@ -61,7 +61,7 @@ function switchMember(id) {
 		document.getElementById("biowebsite").href = "http://www.nicholasrub.in";
 		document.getElementById("bioinstagram").href = "http://instagram.com/nick_rubin";
 		document.getElementById("bioemail").href = "mailto:nrubin999@gmail.com";
-		bio.innerHTML = "Nick Rubin is a junior at Lakeside High School in Seattle, Washington. He is on the board of advisors of Represent.us, a writer for the Huffington Post, and the creator of Greenhouse. Greenhouse is a free browser extension for Chrome, Firefox, and Safari that exposes the influence of money in US Congress. It has been downloaded over 100,000 times, recognized and written about in countries on every continent, and in big media outlets like the Washington Post, Wall Street Journal, Vice, PBS, and many others. When he isn't busy coding, Nick enjoys photography, graphic design, and the outdoors.";
+		bio.innerHTML = "Nick Rubin is a junior at Lakeside High School in Seattle, Washington. He is the creator of Greenhouse, and on the board of Represent.us. Greenhouse is a free browser extension for Chrome, Firefox, and Safari that exposes the influence of money in US Congress. It has been downloaded over 100,000 times, recognized and written about in countries on every continent, and in big media outlets like the Washington Post, Wall Street Journal, Vice, PBS, and many others. When he isn't busy coding, Nick enjoys photography, graphic design, and the outdoors.";
 	}
 	if(id == "member5") {
 		name.innerHTML = "Maria Myers";

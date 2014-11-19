@@ -1,13 +1,6 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="We're creating a global network of youth-run organizations. Join us and submit your initiative, company, project, or nonprofit today.">
-<title>Members | YC</title>
-<link type="text/css" rel="stylesheet" href="styles/styles.css">
-<link type="text/css" rel="stylesheet" href="styles/animations.css">
-<script src="scripts/script.js"></script>
-</head>
+<?php $title = "Members | YouthCorp"; include 'head.php'; ?>
 
 <body>
 <?php include_once("analyticstracking.php") ?>
@@ -52,7 +45,7 @@
 </div>
 <div class="organization">
 	<img src="images/1239195_702904703057621_450860538_o.jpg" class="memberphoto">
-	<a target="_blank" href="http://instrumentsforchange.webs.com"><h1 class="membertitle">Instruments for Change</h1></a>
+	<a target="_blank" href="http://www.ifcseattle.org/"><h1 class="membertitle">Instruments for Change</h1></a>
     <p class="memberdescription">Instruments for Change is a non profit organization founded and led by 6 piano students in the Seattle area. They have been growing and gathering support since their debut concert in June of 2014, where they raised $1100. They have filed and become a non profit, gained the support of Music fest Perugia in Italy, widened our influence online, and planned a few upcoming events. Through our efforts we hope to give back to the incredible music community that has brought us to where we are in our piano experience and help others receive the same opportunity.</p>
     <!--<center>
     <a style="padding:0px 0px 20px 20px;" target="_blank" href="https://www.facebook.com/seattleifc"><img src="images/social/facebook500.png"></a>

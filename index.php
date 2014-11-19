@@ -1,17 +1,6 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="We're creating a global network of youth-run organizations. Join us and submit your initiative, company, project, or nonprofit today.">
-<title>Home | YouthCorp</title>
-<link type="text/css" rel="stylesheet" href="styles/styles.css">
-<link type="text/css" rel="stylesheet" href="styles/animations.css">
-<link rel="icon" 
-      type="image/x-icon" 
-      href="http://theyouthcorp.org/images/favicon.ico" />
-<script src="scripts/script.js"></script>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-</head>
+<?php $title = "Home | YouthCorp"; include 'head.php'; ?>
 
 <body>
 <?php
@@ -113,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <div id="yellow">
 	<h1 id="helpout">What can you do?</h1>
     <ul>
-  		<li><span style="color:#123D52!important">01/</span> ADD YOUR ORGANIZATION</li>
+  		<li onClick="showLogin('mainlogin','darken');"><span style="color:#123D52!important">01/</span> ADD YOUR ORGANIZATION</li>
         <li id="helptwo"><span style="padding:17px;border:1px solid #123D52;border-radius:2px;background-image:url(images/connect.png);background-size:contain;"><span style="color:#123D52!important">02/</span> CONNECT WITH OTHERS</span></li>
         <li><span style="color:#123D52!important">03/</span> WORK TOGETHER</li>
     </ul>
@@ -121,7 +110,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <div id="currentprojects">
 	<h1 class="title">NOTABLE PROJECTS</h1>
-    <h1 class="titleright">VIEW ALL ></h1>
+    <a href="members.php"><h1 class="titleright">VIEW ALL ></h1></a>
     <div class="project" id="projectleft" style="float:left;margin-left:200px;clear:both;">
     	<div class="projectleft">
              <h1>FISTULA</h1>
@@ -130,7 +119,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
              	More details
              </div></a>
         </div>
-        <div class="projectright" style="background-image:url(images/Screen%20Shot%202014-11-09%20at%201.11.35%20PM.png);background-size:cover;">
+        <div class="projectright" style="background-image:url(images/Fistula.png);background-size:cover;">
         </div>
     </div>
     <div class="project" id="projectright" style="float:right;margin-right:200px;">
@@ -145,7 +134,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 </div>
-<h1 class="title" style="position:absolute;margin:-10px 0px 25px 200px;">WHERE ARE WE?</h1>
+<h1 id="wherearewe" class="title" style="position:absolute;margin:-10px 0px 25px 200px;">WHERE ARE WE?</h1>
 <iframe style="width: calc(100% - 400px);display:block;margin:0px auto;margin-top:50px;margin-bottom:70px;" height='250px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/nickrubin.k42llhmp/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoibmlja3J1YmluIiwiYSI6InduWTU3MTQifQ.-uvHxAZUG7-SUUdAUewHCA'></iframe>
 <div id="events">
 	<div id="eventbox">
@@ -180,11 +169,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     </div></a>
 </div>
 <div id="bottom">
-	<h6>Latest blog entry - October 26th, 2014</h6>
-    <h1>Welcome to YouthCorp</h1>
-    <img src="images/TYC_Solid.png">
-    <p id="blogpreview">Our blog is coming soon! Stay tuned to hear from YouthCorp's members. In the meantime, join us today and share your stories.<br><br>
-    <span style="font-size:18px;text-decoration:underline;font-family:opensans-semibold;color:#2f4751;cursor:pointer;">Coming soon ></span>
+	<h6>Latest blog entry - November 11th, 2014</h6>
+    <a href="blog.php"><h1>Welcome to YouthCorp!</h1></a>
+    <img src="images/blogone.png">
+    <p id="blogpreview">What is YouthCorp, why was it formed, and who are we? Hear from our awesome founder Julia Myers in our first blog post.<br><br>
+    <a href="blog.php"><span style="font-size:18px;text-decoration:underline;font-family:opensans-semibold;color:#2f4751;cursor:pointer;">Read it here ></span></a>
     </p>
     <!--<div id="blogbutton">
     	Read article 

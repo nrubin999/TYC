@@ -17,12 +17,9 @@ a {
 }
 
 @media (max-width: 1400px) {
-   div ul {
-	 float:right;
+   #top ul {
+	 float:right!important;
 	 margin-right:5%!important;
-   }
-   #logo {
-	 margin:30px 10px 16px 5%!important;
    }
    #helpout {
 	   margin-left:0%!important;
@@ -36,6 +33,73 @@ a {
    }
 }
 
+@media (max-width: 1250px) {
+	#helpout {
+		text-align:center!important;
+		float:none!important;
+		padding-bottom:45px!important;
+		margin-top:0px!important;
+		padding-top:0px!important;
+	} 
+	#yellow ul {
+		float:none!important;
+		margin:0px auto!important;
+		display:table!important;
+		margin-bottom:0px!important;
+		padding-bottom:0px!important;
+	}
+	#yellow {
+		padding:20px 0px 20px 0px!important;
+	}
+}
+
+@media (max-width: 1364px) {
+	#footer table {
+		margin-left:50px!important;
+	}
+}
+
+@media (max-width: 1256px) {
+	#projectleft {
+		display:block!important;
+		margin:0px auto!important;
+		float:none!important;
+		margin-bottom:60px!important;
+	}
+	#projectright {
+		display:block!important;
+		margin:0px auto!important;
+		float:none!important;
+	}
+	iframe {
+		padding-top:90px!important;
+		width:90%!important;
+	}
+	#wherearewe {
+		margin-top:300px!important;
+	}
+}
+
+@media (max-width: 1150px) {
+	#bottom h1 {
+		margin-left:5%!important;
+	}
+	#bottom h6 {
+		margin-left:5%!important;
+	}
+	#bottom img {
+		margin-left:5%!important;
+	}
+	#subscribebox {
+		margin-right:5%!important;
+	}
+	#subscribebelow {
+		margin-right:5%!important;
+	}
+	.blogdate {
+		display:none!important;
+	}
+}
 
 @media (max-width: 1059px) {
    #logoname {
@@ -61,13 +125,16 @@ a {
    #singlenav {
 	   padding-top:20px!important;
    }
-   div ul {
+   #top ul {
 	   display:table!important;
 	   margin:0px auto!important;
 	   float:none!important;
    }
    #message {
 	   padding-top:50px!important;
+   }
+   #filler {
+	   height:300px!important;
    }
 }
 
@@ -86,6 +153,7 @@ body {
 @font-face {
 	font-family:opensans-semibold;
 	src:url(../fonts/OpenSans-Semibold.ttf);
+	font-weight:bold;
 }
 
 @font-face {
@@ -165,9 +233,14 @@ div ul li {
 }
 
 #yellow ul li {
-	margin-top:-3px !important;
+	margin-top:-7px !important;
 	padding:0px;
 	font-size:18px;
+	cursor:default!important;
+}
+
+#yellow ul li:first-child {
+	cursor:pointer!important;
 }
 
 #yellow ul li:hover {
@@ -226,9 +299,10 @@ div ul li:hover {
 }
 
 #yellow {
-	height:45px;
+	height:auto;
 	background-color:#ffe45c;
 	padding:37px;
+	padding-bottom:75px;
 }
 
 #helpout {
@@ -341,7 +415,8 @@ div ul li:hover {
 }	
 
 #events {
-	height:440px;
+	height:auto;
+	padding-bottom:75px;
 	padding-top:30px;
 	background-color:#ffe45c;
 }
@@ -495,6 +570,7 @@ div ul li:hover {
 #darken, #darkentwo, #darkenthree {
 	position:absolute;
 	width:100%;
+	top:0px;
 	height:2550px;
 	background-color:#111111;
 	opacity:.7;
@@ -688,15 +764,14 @@ div ul li:hover {
 #footer table {
 	margin:50px 0px 0px 150px;
 	padding-top:50px;
-	border-collapse:separate;
 	border-spacing: 5px;
 }
 
 #footer table td {
-	padding:0 80px 10px 60px;
 	font-family:opensans-semibold;
 	color:#e3e3e3;
 	cursor:pointer;
+	padding:0px 50px 0px 70px;
 }
 
 #footer table td:hover {
@@ -897,4 +972,42 @@ div ul li:hover {
 	height:48px;
 	padding-bottom:20px;
 	padding-right:20px;
+}
+
+.blogdate {
+	background-color:#2f4751;
+	height:55px;
+	width:70px;
+	border-radius:100px;
+	margin-left:55%;
+	color:white;
+	font-family:opensans-bold;
+	text-align:center;
+	padding-top:15px;
+	float:left;
+	margin-right:30px;
+}
+
+.blogposttitle {
+	color:#333333;
+	font-family:opensans-regular;
+	margin-top:0px;
+	padding:0px;
+}
+
+.blogpostauthor {
+	color:#333333;
+	font-family:opensans-light;
+	font-size:14px;
+	margin:0px;
+	margin-top:-20px;
+	padding:0px;
+}
+
+.blogpostpreview {
+	font-family:opensans-regular;
+	color:#444444;
+	width:80%;
+	padding-top:30px;
+	padding-bottom:20px;
 }

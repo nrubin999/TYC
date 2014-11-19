@@ -1,13 +1,6 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="We're creating a global network of youth-run organizations. Join us and submit your initiative, company, project, or nonprofit today.">
-<title>About | YouthCorp</title>
-<link type="text/css" rel="stylesheet" href="styles/styles.css">
-<link type="text/css" rel="stylesheet" href="styles/animations.css">
-<script src="scripts/script.js"></script>
-</head>
+<?php $title = "About | YouthCorp"; include 'head.php'; ?>
 
 <body>
 <?php include_once("analyticstracking.php") ?>
